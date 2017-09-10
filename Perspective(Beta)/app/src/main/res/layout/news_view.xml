@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/news_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:contentDescription="@string/news_pic"
+                android:padding="10dp"
+                android:src="@drawable/modi"/>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="180dp">
+
+                <TextView
+                    android:id="@+id/headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:paddingTop="10dp"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/sample_heading"/>
+
+                <TextView
+                    android:id="@+id/news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:textAlignment="textStart"
+                    android:text="@string/sample_news"/>
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@color/background"
+                        android:layout_gravity="end"
+                        android:contentDescription="@string/share"
+                        app:srcCompat="@android:drawable/ic_menu_share" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

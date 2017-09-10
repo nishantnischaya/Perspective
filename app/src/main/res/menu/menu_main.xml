@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.perspective.nishant.Perspective.MainActivity">
+
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="1"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="3"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_aboutus"
+        android:orderInCategory="5"
+        android:title="@string/about_us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_tutorial"
+        android:orderInCategory="6"
+        android:title="@string/tutorial"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572352752920",
+    "firebase_url": "https://perpective-45e7e.firebaseio.com",
+    "project_id": "perpective-45e7e",
+    "storage_bucket": "perpective-45e7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572352752920:android:81542bda87367b82",
+        "android_client_info": {
+          "package_name": "com.perspective.nishant.Perspective"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572352752920-ral599jkdgbij3ieon90rg8d82uui7l6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perspective.nishant.Perspective",
+            "certificate_hash": "0fb6bced7e801f3d275836059a96a03401f6954d"
+          }
+        },
+        {
+          "client_id": "572352752920-1eimokb9sgst39110jnekpdv8s4q98a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWFfLu6ygbGIyFFdHX1UzB9m4sPtqZz7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572352752920-1eimokb9sgst39110jnekpdv8s4q98a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
